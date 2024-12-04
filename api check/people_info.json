@@ -1,0 +1,190 @@
+{
+    "peopleInfoResult": {
+        "peopleInfo": {
+            "peopleCd": "10013266",
+            "peopleNm": "드웨인 존슨",
+            "peopleNmEn": "Dwayne Johnson",
+            "sex": "남자",
+            "repRoleNm": "배우",
+            "homepages": [],
+            "filmos": [
+                {
+                    "movieCd": "20240737",
+                    "movieNm": "모아나 2",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20245078",
+                    "movieNm": "레드 원",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20226886",
+                    "movieNm": "블랙 아담",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20224965",
+                    "movieNm": "DC 리그 오브 슈퍼-펫",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20218349",
+                    "movieNm": "정글 크루즈",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20198681",
+                    "movieNm": "쥬만지: 넥스트 레벨",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20196850",
+                    "movieNm": "분노의 질주: 홉스&쇼",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20181443",
+                    "movieNm": "스카이스크래퍼",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20176917",
+                    "movieNm": "램페이지",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20171909",
+                    "movieNm": "쥬만지: 새로운 세계",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20167542",
+                    "movieNm": "분노의 질주: 더 익스트림",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20177622",
+                    "movieNm": "베이워치: SOS 해상 구조대",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20165443",
+                    "movieNm": "모아나",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20211990",
+                    "movieNm": "센트럴 인텔리전스",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20144682",
+                    "movieNm": "샌 안드레아스",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20143580",
+                    "movieNm": "분노의 질주: 더 세븐",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20149568",
+                    "movieNm": "허큘리스",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20148629",
+                    "movieNm": "엠파이어 스테이트",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20135221",
+                    "movieNm": "분노의 질주: 더 맥시멈",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20137082",
+                    "movieNm": "스니치",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20113972",
+                    "movieNm": "지.아이.조 2",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20147315",
+                    "movieNm": "페인 앤 게인",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20113653",
+                    "movieNm": "잃어버린 세계를 찾아서 2: 신비의 섬",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20110185",
+                    "movieNm": "분노의 질주: 언리미티드",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20148296",
+                    "movieNm": "패스터",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20090946",
+                    "movieNm": "플래닛 51",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20098025",
+                    "movieNm": "윗치 마운틴",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20078079",
+                    "movieNm": "게임 플랜",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20068374",
+                    "movieNm": "그리다이언 갱",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20068519",
+                    "movieNm": "사우스랜드 테일",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20050320",
+                    "movieNm": "둠",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20040668",
+                    "movieNm": "워킹 톨",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20030209",
+                    "movieNm": "웰컴 투 더 정글",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20020120",
+                    "movieNm": "스콜피온 킹",
+                    "moviePartNm": "배우"
+                },
+                {
+                    "movieCd": "20010209",
+                    "movieNm": "미이라2",
+                    "moviePartNm": "배우"
+                }
+            ]
+        },
+        "source": "영화진흥위원회"
+    }
+}

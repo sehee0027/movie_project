@@ -1,0 +1,1162 @@
+{
+    "companyInfoResult": {
+        "companyInfo": {
+            "companyCd": "20161801",
+            "companyNm": "월트디즈니컴퍼니코리아 유한책임회사",
+            "companyNmEn": "The Walt Disney Company Korea",
+            "ceoNm": "김소연",
+            "parts": [
+                {
+                    "companyPartNm": "제작사"
+                },
+                {
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "companyPartNm": "직배사"
+                }
+            ],
+            "filmos": [
+                {
+                    "movieCd": "20247590",
+                    "movieNm": "릴로 & 스티치",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20247590",
+                    "movieNm": "릴로 & 스티치",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20244883",
+                    "movieNm": "썬더볼츠*",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20244883",
+                    "movieNm": "썬더볼츠*",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20246665",
+                    "movieNm": "아마추어",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20246665",
+                    "movieNm": "아마추어",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20247591",
+                    "movieNm": "엘리오",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20247591",
+                    "movieNm": "엘리오",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20242404",
+                    "movieNm": "캡틴 아메리카: 브레이브 뉴 월드",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20242404",
+                    "movieNm": "캡틴 아메리카: 브레이브 뉴 월드",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20240193",
+                    "movieNm": "무파사: 라이온 킹",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20240193",
+                    "movieNm": "무파사: 라이온 킹",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20240737",
+                    "movieNm": "모아나 2",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20240737",
+                    "movieNm": "모아나 2",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20249188",
+                    "movieNm": "에이리언: 로물루스",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20249188",
+                    "movieNm": "에이리언: 로물루스",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20247781",
+                    "movieNm": "데드풀과 울버린",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20247781",
+                    "movieNm": "데드풀과 울버린",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20235974",
+                    "movieNm": "인사이드 아웃 2",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20235974",
+                    "movieNm": "인사이드 아웃 2",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20247783",
+                    "movieNm": "혹성탈출: 새로운 시대",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20247783",
+                    "movieNm": "혹성탈출: 새로운 시대",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20247673",
+                    "movieNm": "오멘: 저주의 시작",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20247673",
+                    "movieNm": "오멘: 저주의 시작",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20244681",
+                    "movieNm": "리얼 페인",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20244681",
+                    "movieNm": "리얼 페인",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20243562",
+                    "movieNm": "백설공주",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20243562",
+                    "movieNm": "백설공주",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20236732",
+                    "movieNm": "가여운 것들",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20236732",
+                    "movieNm": "가여운 것들",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20236474",
+                    "movieNm": "넥스트 골 윈즈",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20236474",
+                    "movieNm": "넥스트 골 윈즈",
+                    "companyPartNm": "제공"
+                },
+                {
+                    "movieCd": "20235834",
+                    "movieNm": "위시",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20235834",
+                    "movieNm": "위시",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20235034",
+                    "movieNm": "더 마블스",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20235034",
+                    "movieNm": "더 마블스",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20233879",
+                    "movieNm": "크리에이터",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20233879",
+                    "movieNm": "크리에이터",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20234044",
+                    "movieNm": "베니스 유령 살인사건",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20234044",
+                    "movieNm": "베니스 유령 살인사건",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20232854",
+                    "movieNm": "헌티드 맨션",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20232854",
+                    "movieNm": "헌티드 맨션",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20232273",
+                    "movieNm": "인디아나 존스: 운명의 다이얼",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20232273",
+                    "movieNm": "인디아나 존스: 운명의 다이얼",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20228930",
+                    "movieNm": "엘리멘탈",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20228930",
+                    "movieNm": "엘리멘탈",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20231839",
+                    "movieNm": "인어공주",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20231839",
+                    "movieNm": "인어공주",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20231496",
+                    "movieNm": "가디언즈 오브 갤럭시: Volume 3",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20231496",
+                    "movieNm": "가디언즈 오브 갤럭시: Volume 3",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20230209",
+                    "movieNm": "앤트맨과 와스프: 퀀텀매니아",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20230209",
+                    "movieNm": "앤트맨과 와스프: 퀀텀매니아",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20231959",
+                    "movieNm": "부기맨",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20231959",
+                    "movieNm": "부기맨",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20230611",
+                    "movieNm": "이니셰린의 밴시",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20230611",
+                    "movieNm": "이니셰린의 밴시",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20225061",
+                    "movieNm": "아바타: 물의 길",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20225061",
+                    "movieNm": "아바타: 물의 길",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20228277",
+                    "movieNm": "더 메뉴",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20228277",
+                    "movieNm": "더 메뉴",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20228190",
+                    "movieNm": "스트레인지 월드",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20228190",
+                    "movieNm": "스트레인지 월드",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20226254",
+                    "movieNm": "블랙 팬서: 와칸다 포에버",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20226254",
+                    "movieNm": "블랙 팬서: 와칸다 포에버",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20226957",
+                    "movieNm": "아바타 리마스터링",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20226957",
+                    "movieNm": "아바타 리마스터링",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20224662",
+                    "movieNm": "토르: 러브 앤 썬더",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20224662",
+                    "movieNm": "토르: 러브 앤 썬더",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20223839",
+                    "movieNm": "버즈 라이트이어",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20223839",
+                    "movieNm": "버즈 라이트이어",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20212855",
+                    "movieNm": "닥터 스트레인지: 대혼돈의 멀티버스",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20212855",
+                    "movieNm": "닥터 스트레인지: 대혼돈의 멀티버스",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20204190",
+                    "movieNm": "비틀즈 겟 백: 루프탑 콘서트",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20204190",
+                    "movieNm": "비틀즈 겟 백: 루프탑 콘서트",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20219330",
+                    "movieNm": "메이의 새빨간 비밀",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20219330",
+                    "movieNm": "메이의 새빨간 비밀",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20227776",
+                    "movieNm": "암스테르담",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20227776",
+                    "movieNm": "암스테르담",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20226160",
+                    "movieNm": "프레이",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20226160",
+                    "movieNm": "프레이",
+                    "companyPartNm": "제공"
+                },
+                {
+                    "movieCd": "20205443",
+                    "movieNm": "나일 강의 죽음",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20205443",
+                    "movieNm": "나일 강의 죽음",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20193082",
+                    "movieNm": "웨스트 사이드 스토리",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20193082",
+                    "movieNm": "웨스트 사이드 스토리",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20210864",
+                    "movieNm": "엔칸토: 마법의 세계",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20210864",
+                    "movieNm": "엔칸토: 마법의 세계",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20210600",
+                    "movieNm": "프렌치 디스패치",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20210600",
+                    "movieNm": "프렌치 디스패치",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20218256",
+                    "movieNm": "이터널스",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20218256",
+                    "movieNm": "이터널스",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20210865",
+                    "movieNm": "고장난 론",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20210865",
+                    "movieNm": "고장난 론",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20219115",
+                    "movieNm": "라스트 듀얼: 최후의 결투",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20219115",
+                    "movieNm": "라스트 듀얼: 최후의 결투",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20217742",
+                    "movieNm": "샹치와 텐 링즈의 전설",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20217742",
+                    "movieNm": "샹치와 텐 링즈의 전설",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20192986",
+                    "movieNm": "프리 가이 ",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20192986",
+                    "movieNm": "프리 가이 ",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20218349",
+                    "movieNm": "정글 크루즈",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20218349",
+                    "movieNm": "정글 크루즈",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20191951",
+                    "movieNm": "블랙 위도우",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20191951",
+                    "movieNm": "블랙 위도우",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20216685",
+                    "movieNm": "루카",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20216685",
+                    "movieNm": "루카",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20216362",
+                    "movieNm": "크루엘라",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20216362",
+                    "movieNm": "크루엘라",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20223743",
+                    "movieNm": "나이트메어 앨리",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20223743",
+                    "movieNm": "나이트메어 앨리",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20194403",
+                    "movieNm": "킹스맨: 퍼스트 에이전트",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20194403",
+                    "movieNm": "킹스맨: 퍼스트 에이전트",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20215046",
+                    "movieNm": "노매드랜드",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20215046",
+                    "movieNm": "노매드랜드",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20200263",
+                    "movieNm": "라야와 마지막 드래곤",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20200263",
+                    "movieNm": "라야와 마지막 드래곤",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20207443",
+                    "movieNm": "소울",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20207443",
+                    "movieNm": "소울",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20175405",
+                    "movieNm": "뉴 뮤턴트",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20175405",
+                    "movieNm": "뉴 뮤턴트",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20191048",
+                    "movieNm": "온워드: 단 하루의 기적",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20191048",
+                    "movieNm": "온워드: 단 하루의 기적",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20193275",
+                    "movieNm": "브링 더 소울 : 더 무비",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20201985",
+                    "movieNm": "엠티맨",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20201985",
+                    "movieNm": "엠티맨",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20193822",
+                    "movieNm": "뮬란",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20193822",
+                    "movieNm": "뮬란",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20209161",
+                    "movieNm": "언더워터",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20209161",
+                    "movieNm": "언더워터",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20208686",
+                    "movieNm": "콜 오브 와일드",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20208686",
+                    "movieNm": "콜 오브 와일드",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20197390",
+                    "movieNm": "조조 래빗",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20197390",
+                    "movieNm": "조조 래빗",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20192300",
+                    "movieNm": "스파이 지니어스 ",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20192300",
+                    "movieNm": "스파이 지니어스 ",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20195462",
+                    "movieNm": "스타워즈: 라이즈 오브 스카이워커",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20195462",
+                    "movieNm": "스타워즈: 라이즈 오브 스카이워커",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20192401",
+                    "movieNm": "포드 V 페라리",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20192401",
+                    "movieNm": "포드 V 페라리",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20197803",
+                    "movieNm": "겨울왕국 2",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20197803",
+                    "movieNm": "겨울왕국 2",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20192083",
+                    "movieNm": "터미네이터: 다크 페이트",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20192083",
+                    "movieNm": "터미네이터: 다크 페이트",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20191589",
+                    "movieNm": "말레피센트 2",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20191589",
+                    "movieNm": "말레피센트 2",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20175771",
+                    "movieNm": "라이온 킹",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20175771",
+                    "movieNm": "라이온 킹",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20184047",
+                    "movieNm": "토이 스토리 4",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20184047",
+                    "movieNm": "토이 스토리 4",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20183867",
+                    "movieNm": "알라딘",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20183867",
+                    "movieNm": "알라딘",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20184889",
+                    "movieNm": "어벤져스: 엔드게임",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20184889",
+                    "movieNm": "어벤져스: 엔드게임",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20196025",
+                    "movieNm": "덤보",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20196025",
+                    "movieNm": "덤보",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20181877",
+                    "movieNm": "캡틴 마블",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20181877",
+                    "movieNm": "캡틴 마블",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20180937",
+                    "movieNm": "더 페이버릿: 여왕의 여자",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20184888",
+                    "movieNm": "메리 포핀스 리턴즈",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20184888",
+                    "movieNm": "메리 포핀스 리턴즈",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20188282",
+                    "movieNm": "알리타: 배틀 엔젤",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20182544",
+                    "movieNm": "글래스",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20182544",
+                    "movieNm": "글래스",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20189463",
+                    "movieNm": "주먹왕 랄프 2: 인터넷 속으로",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20189463",
+                    "movieNm": "주먹왕 랄프 2: 인터넷 속으로",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20189843",
+                    "movieNm": "호두까기 인형과 4개의 왕국",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20189843",
+                    "movieNm": "호두까기 인형과 4개의 왕국",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20183050",
+                    "movieNm": "번 더 스테이지: 더 무비",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20185485",
+                    "movieNm": "보헤미안 랩소디",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20189123",
+                    "movieNm": "곰돌이 푸 다시 만나 행복해",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20189123",
+                    "movieNm": "곰돌이 푸 다시 만나 행복해",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20183361",
+                    "movieNm": "인크레더블 2",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20183361",
+                    "movieNm": "인크레더블 2",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20180522",
+                    "movieNm": "앤트맨과 와스프",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20180522",
+                    "movieNm": "앤트맨과 와스프",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20180789",
+                    "movieNm": "한 솔로: 스타워즈 스토리",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20180789",
+                    "movieNm": "한 솔로: 스타워즈 스토리",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20177478",
+                    "movieNm": "어벤져스: 인피니티 워",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20177478",
+                    "movieNm": "어벤져스: 인피니티 워",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20170561",
+                    "movieNm": "블랙 팬서",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20170561",
+                    "movieNm": "블랙 팬서",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20172485",
+                    "movieNm": "시간의 주름",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20172485",
+                    "movieNm": "시간의 주름",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20178449",
+                    "movieNm": "쓰리 빌보드",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20173436",
+                    "movieNm": "셰이프 오브 워터: 사랑의 모양",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20179985",
+                    "movieNm": "코코",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20179985",
+                    "movieNm": "코코",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20179462",
+                    "movieNm": "위대한 쇼맨",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20170443",
+                    "movieNm": "스타워즈: 라스트 제다이",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20170443",
+                    "movieNm": "스타워즈: 라스트 제다이",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20175121",
+                    "movieNm": "토르: 라그나로크",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20175121",
+                    "movieNm": "토르: 라그나로크",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20174685",
+                    "movieNm": "인휴먼즈",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20174685",
+                    "movieNm": "인휴먼즈",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20172627",
+                    "movieNm": "리틀 프린세스 소피아 : 신비한 섬",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20172627",
+                    "movieNm": "리틀 프린세스 소피아 : 신비한 섬",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20175522",
+                    "movieNm": "카3: 새로운 도전",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20175522",
+                    "movieNm": "카3: 새로운 도전",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20170982",
+                    "movieNm": "캐리비안의 해적: 죽은 자는 말이 없다",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20170982",
+                    "movieNm": "캐리비안의 해적: 죽은 자는 말이 없다",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20163603",
+                    "movieNm": "가디언즈 오브 갤럭시 VOL. 2",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20163603",
+                    "movieNm": "가디언즈 오브 갤럭시 VOL. 2",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20164721",
+                    "movieNm": "미녀와 야수",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20164721",
+                    "movieNm": "미녀와 야수",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20161827",
+                    "movieNm": "로건",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20173601",
+                    "movieNm": "리틀 프린세스 소피아: 엘레나와 비밀의 아발로 왕국",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20173601",
+                    "movieNm": "리틀 프린세스 소피아: 엘레나와 비밀의 아발로 왕국",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20161366",
+                    "movieNm": "그래, 가족",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20165443",
+                    "movieNm": "모아나",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20165443",
+                    "movieNm": "모아나",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20163183",
+                    "movieNm": "로그 원: 스타워즈 스토리",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20163183",
+                    "movieNm": "로그 원: 스타워즈 스토리",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20153781",
+                    "movieNm": "데드풀",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20159364",
+                    "movieNm": "캡틴 아메리카: 시빌 워",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20151383",
+                    "movieNm": "마션",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20148493",
+                    "movieNm": "어벤져스: 에이지 오브 울트론",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20147790",
+                    "movieNm": "캡틴 아메리카: 윈터 솔져",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20147727",
+                    "movieNm": "그랜드 부다페스트 호텔",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20136803",
+                    "movieNm": "겨울왕국",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20120467",
+                    "movieNm": "스토커",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20124721",
+                    "movieNm": "어벤져스",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20119577",
+                    "movieNm": "블랙 스완",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "19980074",
+                    "movieNm": "타이타닉",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "19980074",
+                    "movieNm": "타이타닉",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "19940256",
+                    "movieNm": "라이온 킹",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "19940256",
+                    "movieNm": "라이온 킹",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "20060351",
+                    "movieNm": "팀 버튼의 크리스마스 악몽",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "movieCd": "20060351",
+                    "movieNm": "팀 버튼의 크리스마스 악몽",
+                    "companyPartNm": "수입사"
+                },
+                {
+                    "movieCd": "2023C264",
+                    "movieNm": "피터팬 & 웬디",
+                    "companyPartNm": "제공"
+                }
+            ]
+        },
+        "source": "영화진흥위원회"
+    }
+}

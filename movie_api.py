@@ -3,6 +3,7 @@ import pymysql
 from datetime import datetime
 from dotenv import load_dotenv 
 import os 
+from datetime import timedelta
 
 # .env 파일 로드 
 load_dotenv()
@@ -41,11 +42,18 @@ def fetch_movie_info(movieCd):
     
 
 # 데이터 변환(Transform)
-def transform_data(box_office_data, movie_info_data):
+def transform_data(box_office_data, movie_info_data, target_date):
 
     """박스오피스 데이터와 영화 상세정보 데이터를 정제합니다."""
     clean_records_box_office = []
     clean_records_movie_details = []
+
+    # target_date가 datetime 객체로 변환되지 않았다면 변환
+    if isinstance(target_date, str):
+        target_date = datetime.strptime(target_date, "%Y%m%d")
+
+    # 필요한 경우 다시 문자열로 변환
+    target_date_str = target_date.strftime("%Y%m%d")
 
     for movie in box_office_data:
         movieCd = movie.get("movieCd", "")
@@ -53,14 +61,13 @@ def transform_data(box_office_data, movie_info_data):
         movieNm = movie.get("movieNm", "") # 영화명(국문)
         openDt = movie.get("openDt", None) # 개봉일 
         salesAmt = int(movie.get("salesAmt", 0)) # 해당일의 매출액 
-        salesAcc = int(movie.get("salesAcc", 0)) # 누적 매출액 
-        audiAcc = int(movie.get("audiAcc", 0)) # 누적 관객수 
+        audiCnt = int(movie.get("audiCnt", 0)) # 해당일의 관객수 
         scrnCnt = int(movie.get("scrnCnt", 0)) # 해당일의 상영 스크린 수
         showCnt = int(movie.get("showCnt", 0)) # 해당일의 상영 횟수 
 
         # 정제된 박스오피스 데이터를 저장
         clean_records_box_office.append((
-            movieCd, rank, movieNm, openDt, salesAmt, salesAcc, audiAcc, scrnCnt, showCnt
+            movieCd, target_date_str, rank, movieNm, openDt, salesAmt, audiCnt, scrnCnt, showCnt
         ))
 
         # 영화 상세 정보
@@ -170,14 +177,13 @@ def process_movie_relations(connection, movie_id, nations, genres, directors, ac
         print(f"영화 {movie_id}와 영화사 {company} 처리 완료")
 
 # 데이터 로드(Load)
-def load_data_to_mysql():
+def load_data_to_mysql(box_office_records, movie_details_records, target_date):
     # MySQL 연결
     connection = pymysql.connect(host=MYSQL_HOST, user=MYSQL_USER, password=MYSQL_PASSWORD, db=MYSQL_DB)
     cursor = connection.cursor()
 
     # 1. 박스오피스 데이터 가져오기
-    date = "20241127"  # 날짜 입력
-    box_office_data = fetch_daily_box_office(date)
+    box_office_data = fetch_daily_box_office(target_date)
 
     # 2. 영화 상세 정보 가져오기
     movie_info_data = {}
@@ -186,18 +192,36 @@ def load_data_to_mysql():
         movie_info_data[movieCd] = fetch_movie_info(movieCd)
 
     # 3. 데이터 변환
-    clean_records_box_office, clean_records_movie_details = transform_data(box_office_data, movie_info_data)
+    clean_records_box_office, clean_records_movie_details = transform_data(box_office_data, movie_info_data, target_date)
 
-    # 4. 박스오피스 데이터 삽입
+    # 4. 박스오피스 테이블 삽입 (기본 정보)
+    insert_box_office_sql = """
+    INSERT INTO daily_box_office (
+        movie_id, movie_nm, open_date
+    ) VALUES (%s, %s, %s)
+    ON DUPLICATE KEY UPDATE
+        movie_nm = VALUES(movie_nm),
+        open_date = VALUES(open_date)
+    """
     for record in clean_records_box_office:
-        insert_sql = """
-        INSERT INTO daily_box_office (
-            movie_id, movie_rank, movie_nm, open_date, sales_amt, sales_acc, audi_acc, scrn_cnt, show_cnt)
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
-        ON DUPLICATE KEY UPDATE sales_amt = VALUES(sales_amt)
-        """
-        cursor.execute(insert_sql, record)
-        connection.commit()
+        cursor.execute(insert_box_office_sql, (record[0], record[3], record[4]))
+    connection.commit()
+
+    # 4-1. 일별 박스오피스 데이터 테이블 삽입 (상세 정보)
+    insert_box_office_data_sql = """
+    INSERT INTO daily_box_office_data (
+        target_date, movie_id, movie_rank, sales_amt, audi_cnt, scrn_cnt, show_cnt
+    ) VALUES (%s, %s, %s, %s, %s, %s, %s)
+    ON DUPLICATE KEY UPDATE
+        sales_amt = VALUES(sales_amt),
+        audi_cnt = VALUES(audi_cnt),
+        scrn_cnt = VALUES(scrn_cnt),
+        show_cnt = VALUES(show_cnt)
+    """
+    for record in clean_records_box_office:
+        cursor.execute(insert_box_office_data_sql, (record[1], record[0], record[2], record[5], record[6], record[7], record[8]))
+    connection.commit()
+    
 
     # 5. 영화 상세 데이터 삽입
     for record in clean_records_movie_details:
@@ -225,7 +249,7 @@ def load_movie_relations_to_mysql(box_office_data, movie_info_data):
     cursor = connection.cursor()
 
     # 데이터 정제
-    clean_records_movie_details = transform_data(box_office_data, movie_info_data)
+    clean_records_box_office, clean_records_movie_details = transform_data(box_office_data, movie_info_data, target_date)
 
     # 영화 상세 정보 처리
     for movie in clean_records_movie_details:
@@ -246,30 +270,60 @@ def load_movie_relations_to_mysql(box_office_data, movie_info_data):
     # 연결 종료
     connection.close()
 
+# 날짜 목록 생성
+def get_dates(start_date):
+    """시작 날짜부터 설정 기간의 날짜 목록 생성"""
+    # start_date가 문자열이라면 datetime 객체로 변환
+    if isinstance(start_date, str):
+        start_date = datetime.strptime(start_date, "%Y%m%d")
+
+    dates = []
+    current_date = start_date  # datetime 객체로 초기화
+    for i in range(38):  # 기간 설정 
+        # 날짜를 "YYYYMMDD" 형식의 문자열로 저장
+        dates.append(current_date.strftime("%Y%m%d"))
+        # 다음 날짜로 이동
+        current_date += timedelta(days=1)
+
+    print("get_date: ", dates)
+    return dates
 
 if __name__ == "__main__":
-    target_date = "20241127"  # 데이터를 수집할 날짜
+    start_date = "20241101"  # 데이터를 수집할 시작 날짜    
+    
     try:
         # MySQL 연결 생성
         connection = pymysql.connect(host=MYSQL_HOST, user=MYSQL_USER, password=MYSQL_PASSWORD, db=MYSQL_DB)
         cursor = connection.cursor() 
 
-        # 1. 일별 박스오피스 데이터 수집
-        box_office_data = fetch_daily_box_office(target_date)
+        # 날짜 생성
+        week_dates = get_dates(start_date)
+        for target_date in week_dates:
+            # print(type(target_date)) # str
+            # print(f"날짜 처리 중: {target_date}")
+
+            # 1. 일별 박스오피스 데이터 수집
+            box_office_data = fetch_daily_box_office(target_date)
+            # print("박스오피스 데이터 수집 성공 ! \n")
+            
+            # 2. 각 영화의 상세정보 수집
+            movie_info_data = {}
+            for movie in box_office_data:
+                movieCd = movie["movieCd"]
+                movie_info_data[movieCd] = fetch_movie_info(movieCd)
+            # print("영화 상세 데이터 수집 성공 ! \n")
         
-        # 2. 각 영화의 상세정보 수집
-        movie_info_data = {}
-        for movie in box_office_data:
-            movieCd = movie["movieCd"]
-            movie_info_data[movieCd] = fetch_movie_info(movieCd)
-       
-        # 3. 데이터 정제
-        box_office_records, movie_details_records = transform_data(
-            box_office_data, movie_info_data)
-     
-        # 4. MySQL에 데이터 삽입
-        load_data_to_mysql()  
-        load_movie_relations_to_mysql(box_office_data, movie_info_data)
+            # 3. 데이터 정제
+            box_office_records, movie_details_records = transform_data(
+                box_office_data, movie_info_data, target_date)
+            # print("정제된 데이터 확인 - 박스오피스:\n", box_office_records)
+            # print("정제된 데이터 확인 - 영화 상세정보:\n", movie_details_records)
+        
+            # 4. MySQL에 데이터 삽입
+            load_data_to_mysql(box_office_records, movie_details_records, target_date)  
+            # print("박스오피스, 상세정보 테이블 적재 성공 \n")
+            load_movie_relations_to_mysql(box_office_data, movie_info_data)
+            # print("관계 테이블 적재 성공\n")
  
         # 연결 종료
         cursor.close()
